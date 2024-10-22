@@ -25,6 +25,7 @@ weather_monitoring_system/
 
 ![Screenshot 2024-10-22 113709](https://github.com/user-attachments/assets/c5a7308c-666d-4a8b-84f8-625d96ac3737)
 
+
 ## Tools & Technologies
 
 •**Language**: Python
@@ -38,4 +39,19 @@ weather_monitoring_system/
 •**Alerting**: Email (optional) or console notifications
 
 •**Test Framework**: Python’s built-in unittest
+
+## Step-by-Step Instructions
+
+**Step 1**: Create requirements.txt for Dependencies
+
+First, create a *requirements.txt* file to manage dependencies. This will make it easy for others to install necessary packages. 
+
+You can install these dependencies using: 
+
+  *pip install -r requirements.txt*
+
+Get API_KEY from [Openweathermap](https://home.openweathermap.org/api_keys)
+![Screenshot 2024-10-22 113709](https://github.com/Praneethaa27/Data-Processing-System-for-Weather-Monitoring/issues/2#issue-2604906692)
+
+
 
