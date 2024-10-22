@@ -27,9 +27,15 @@ weather_monitoring_system/
 
 ## Tools & Technologies
 
-$ Language: Python
-•Database: SQLite or CSV files (for lightweight persistence)
-•API Integration: OpenWeatherMap API
-•Visualization: Matplotlib or Plotly
-•Alerting: Email (optional) or console notifications
-•Test Framework: Python’s built-in unittest
+•**Language**: Python
+
+•**Database**: SQLite or CSV files (for lightweight persistence)
+
+•**API Integration**: OpenWeatherMap API
+
+•**Visualization**: Matplotlib or Plotly
+
+•**Alerting**: Email (optional) or console notifications
+
+•**Test Framework**: Python’s built-in unittest
+
