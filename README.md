@@ -51,7 +51,9 @@ You can install these dependencies using:
   *pip install -r requirements.txt*
 
 Get API_KEY from [Openweathermap](https://home.openweathermap.org/api_keys)
-![Screenshot 2024-10-22 113709](https://github.com/Praneethaa27/Data-Processing-System-for-Weather-Monitoring/issues/2#issue-2604906692)
+
+![image](https://github.com/user-attachments/assets/6d0b391d-53ba-42c1-9dc8-6753f8b5b0f9)
+
 
 
 
