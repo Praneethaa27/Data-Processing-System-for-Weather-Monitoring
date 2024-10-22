@@ -1,8 +1,17 @@
 # Data-Processing-System-for-Weather-Monitoring
 Develop a real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system will utilize data from the OpenWeatherMap API (https://openweathermap.org/).
 
+## Data Source: 
+The system will continuously retrieve weather data from the OpenWeatherMap API. You will need to sign up for a free API key to access the data. The API provides various weather parameters, and for this assignment, we will focus on: 
 
-# Solution:
+(1.)**main:** Main weather condition (e.g., Rain, Snow, Clear) 
+(2.)**temp:** Current temperature in Centigrade 
+(3.)**feels_like:** Perceived temperature in Centigrade 
+(4.)**dt:** Time of the data update (Unix timestamp) 
+
+
+
+# Steps:
 ## File Structure
 weather_monitoring_system/
 
