@@ -84,16 +84,26 @@ This file will test different functionalities of the system.
  *python test_cases.py*
  
 ### How to Run the System
-  **1.	Install dependencies: **
-       *pip install -r requirements.txt *
- * *2.	Set up the API key in  *config.py *. * *
- * *3.	Run the main application: * *
+  **1.Install dependencies:**
+       *pip install -r requirements.txt*
+ **2.Set up the API key in  *config.py*.** 
+ **3.Run the main application:**
  *python app.py *
-4.	Run tests:
-python test_cases.py
-5.	Visualize the data by running:
-python visualization.py
+**4.Run tests:**
+*python test_cases.py*
+**5.Visualize the data by running:**
+*python visualization.py*
+
 By following these steps, you'll have a fully functioning real-time weather monitoring system complete with API integration, data rollups, alerts, and visualizations.
 
+# Result
 
+**Date**: *22-10-2024*
+**Time:** *AT 10:55 AM*
+
+![image](https://github.com/user-attachments/assets/fbd76a67-6bba-4df6-a5e8-58ea874a43c6)
+
+**Date**: *22-10-2024*
+**Time:** *AT 11:45 AM*
+![image](https://github.com/user-attachments/assets/68649c6b-9aef-4eb5-83dd-bd29d53ac019)
 
