@@ -116,3 +116,6 @@ By following these steps, you'll have a fully functioning real-time weather moni
 **Time:** *AT 11:45 AM*
 ![image](https://github.com/user-attachments/assets/68649c6b-9aef-4eb5-83dd-bd29d53ac019)
 
+**Date**: *22-10-2024*
+**Time:** *AT 15:42 PM*
+<img width="412" alt="image" src="https://github.com/user-attachments/assets/ea20c5d4-9edd-4928-83f8-5b1609106222">
