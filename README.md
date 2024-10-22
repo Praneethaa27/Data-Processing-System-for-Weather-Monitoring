@@ -118,4 +118,4 @@ By following these steps, you'll have a fully functioning real-time weather moni
 
 **Date**: *22-10-2024*
 **Time:** *AT 15:42 PM*
-<img width="412" alt="image" src="https://github.com/user-attachments/assets/ea20c5d4-9edd-4928-83f8-5b1609106222">
+<img alt="image" src="https://github.com/user-attachments/assets/ea20c5d4-9edd-4928-83f8-5b1609106222">
