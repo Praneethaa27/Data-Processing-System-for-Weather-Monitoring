@@ -31,10 +31,15 @@ This module processes the weather data and aggregates it for reporting and summa
 This file handles the logic for generating alerts based on weather data.
 
 - **check_alerts(weather_data)**: This function checks the weather parameters for specific thresholds (temperature, humidity, wind speed) and triggers alerts for:
+
 -- High temperatures (above 35°C).
+  
 -- High humidity (above 80%).
+
 -- Strong winds (wind speed above 20 m/s).
+
 -- Cold temperatures (below 0°C).
+
 -- Alerts are printed in the console and can easily be extended to other notification systems like email, SMS, etc.
 
 ### 4. config.py:
@@ -48,4 +53,66 @@ This file contains all the configuration settings needed by the system.
 ### 5. requirements.txt:
 Contains dependencies for the system:
 - *requests*: The Python library used to make HTTP requests to the OpenWeatherMap API.
+
+## New Features in the Extended System
+
+1. **Additional Weather Parameters**:
+
+The system now retrieves and processes additional weather parameters:
+
+- **Humidity**: Monitored for discomfort alerts and included in summaries.
+- **Wind Speed**: Tracked for generating high wind alerts and summaries.
+- **Weather Description**: Provides a textual description of current weather conditions.
+
+
+2. **Forecasting and Summarization**:
+
+The system now retrieves 5-day weather forecasts for each city:
+
+- Forecast data includes temperature, humidity, wind speed, and descriptions.
+- **Summaries** are generated based on predicted conditions to give an average view of the weather trends in the coming days.
+
+3. **Daily Aggregates**:
+
+The system aggregates daily weather data for each city, calculating:
+- Average Temperature.
+- Average Humidity.
+- Average Wind Speed.
+
+  
+This helps users to understand weather trends and variations over time.
+
+4. **Alerts for Extreme Weather**:
+
+Alerts are triggered if certain thresholds are crossed:
+
+- **Heat alerts**: Triggered if temperature exceeds 35°C.
+- **High humidity alerts**: Triggered if humidity exceeds 80%.
+- **Strong wind alerts**: Triggered if wind speed exceeds 20 m/s.
+- **Cold weather alerts**: Triggered if the temperature drops below 0°C.
+
+
+## Example Workflow
+1. **Start the Application:**
+- The app fetches real-time weather data for all cities in the CITIES list.
+- The system calculates and prints daily aggregates.
+- If any extreme conditions are detected, alerts are printed.
+  
+2. **Forecast Summaries:**
+
+- The system retrieves 5-day forecasts and prints out summaries of predicted conditions.
+
+3. **Repeat:**
+- After the set interval *(POLL_INTERVAL)*, the system fetches fresh data and repeats the process.
+
+
+## Use Cases
+- **Weather Monitoring for Multiple Cities**: Keep track of weather conditions across multiple cities, useful for global weather tracking.
+- **Extreme Weather Alerts**: Immediate notifications when thresholds for temperature, humidity, or wind speed are crossed.
+- **Weather Forecasting**: Access to summarized weather forecasts for planning purposes based on predictions for the next 5 days.
+
+## Customizations
+1. **Add/Remove Cities**: Modify the **CITIES** list in *config.py* to monitor different locations.
+2. **Modify Alert Thresholds**: Adjust thresholds in *alert_system.py* to suit different weather conditions based on specific needs.
+3. **Change Polling Frequency**: Adjust **POLL_INTERVAL** to control how often data is refreshed.
 
