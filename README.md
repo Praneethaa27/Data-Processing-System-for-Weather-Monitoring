@@ -24,3 +24,12 @@ weather_monitoring_system/
       └── daily_weather_summary.csv  # CSV file to store daily weather summaries
 
 ![Screenshot 2024-10-22 113709](https://github.com/user-attachments/assets/c5a7308c-666d-4a8b-84f8-625d96ac3737)
+
+## Tools & Technologies
+
+$ Language: Python
+•Database: SQLite or CSV files (for lightweight persistence)
+•API Integration: OpenWeatherMap API
+•Visualization: Matplotlib or Plotly
+•Alerting: Email (optional) or console notifications
+•Test Framework: Python’s built-in unittest
