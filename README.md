@@ -20,41 +20,50 @@ The system will continuously retrieve weather data from the OpenWeatherMap API. 
    2.1. Convert temperature values from Kelvin to Celsius (tip : you can also use user preference). 
 
 ## Rollups and Aggregates:
-**Daily Weather Summary:**
-1) Roll up the weather data for each day.
-2) Calculate daily aggregates for:
+1) **Daily Weather Summary:**
+- Roll up the weather data for each day.
+- Calculate daily aggregates for:
 
     2.1) Average temperature 
 
     2.2) Maximum temperature 
 
-    2.3)Minimum temperature 
+    2.3) Minimum temperature 
 
-    2.4)Dominant weather condition (give reason on this) 
+    2.4) Dominant weather condition (give reason on this) 
 
   Store the daily summaries in a database or persistent storage for further analysis. 
-Alerting Thresholds: 
+  
+2) **Alerting Thresholds:**
 
-Define user-configurable thresholds for temperature or specific weather conditions (e.g., alert if temperature exceeds 35 degrees Celsius for two consecutive updates). 
-Continuously track the latest weather data and compare it with the thresholds. 
-If a threshold is breached, trigger an alert for the current weather conditions. Alerts could be displayed on the console or sent through an email notification system (implementation details left open-ended). 
-Implement visualizations: 
-To display daily weather summaries, historical trends, and triggered alerts. 
-Test Cases: 
- System Setup: 
-Verify system starts successfully and connects to the OpenWeatherMap API using a valid API key. 
-Data Retrieval: 
-Simulate API calls at configurable intervals. 
-Ensure the system retrieves weather data for the specified location and parses the response correctly. 
-Temperature Conversion: 
-Test conversion of temperature values from Kelvin to Celsius (or Fahrenheit) based on user preference. 
-Daily Weather Summary: 
-Simulate a sequence of weather updates for several days.
-Verify that daily summaries are calculated correctly, including average, maximum, minimum temperatures,and dominant weather condition. 
-Alerting Thresholds:
-Define and configure user thresholds for temperature or weather conditions.
-Simulate weather data exceeding or breaching the thresholds. 
-Verify that alerts are triggered only when a threshold is violated. 
+- Define user-configurable thresholds for temperature or specific weather conditions (e.g., alert if temperature exceeds 35 degrees Celsius for two consecutive updates).
+- Continuously track the latest weather data and compare it with the thresholds.
+- If a threshold is breached, trigger an alert for the current weather conditions. Alerts could be displayed on the console or sent through an email notification system (implementation details left open-ended).
+
+3) **Implement visualizations:**
+
+- To display daily weather summaries, historical trends, and triggered alerts.
+
+## Test Cases: 
+1) **System Setup:** 
+- Verify system starts successfully and connects to the OpenWeatherMap API using a valid API key. 
+2) **Data Retrieval:**
+- Simulate API calls at configurable intervals. 
+- Ensure the system retrieves weather data for the specified location and parses the response correctly. 
+3) **Temperature Conversion:** 
+- Test conversion of temperature values from Kelvin to Celsius (or Fahrenheit) based on user preference. 
+4) **Daily Weather Summary:**
+- Simulate a sequence of weather updates for several days.
+- Verify that daily summaries are calculated correctly, including average, maximum, minimum temperatures,and dominant weather condition. 
+5) **Alerting Thresholds:**
+- Define and configure user thresholds for temperature or weather conditions.
+- Simulate weather data exceeding or breaching the thresholds.
+- Verify that alerts are triggered only when a threshold is violated.
+
+## Bonus: 
+- Extend the system to support additional weather parameters from the OpenWeatherMap API (e.g., humidity, wind speed) and incorporate them into rollups/aggregates.
+- Explore functionalities like weather forecasts retrieval and generating summaries based on predicted conditions.
+
 
 # Steps:
 ## File Structure
