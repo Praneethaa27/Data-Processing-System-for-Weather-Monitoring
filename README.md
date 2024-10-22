@@ -12,6 +12,11 @@ The system will continuously retrieve weather data from the OpenWeatherMap API. 
 
 4. **dt:** Time of the data update (Unix timestamp)
 
+## Processing and Analysis: 
+
+1. The system should continuously call the OpenWeatherMap API at a configurable interval (e.g., every 5 minutes) to retrieve real-time weather data for the metros in India. (Delhi, Mumbai, Chennai, Bangalore, Kolkata, Hyderabad)
+2. For each received weather update:
+   2.1. Convert temperature values from Kelvin to Celsius (tip : you can also use user preference). 
 
 
 # Steps:
