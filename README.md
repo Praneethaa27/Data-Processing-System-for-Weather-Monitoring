@@ -4,13 +4,13 @@ Develop a real-time data processing system to monitor weather conditions and pro
 ## Data Source: 
 The system will continuously retrieve weather data from the OpenWeatherMap API. You will need to sign up for a free API key to access the data. The API provides various weather parameters, and for this assignment, we will focus on: 
 
-(1. **main:** Main weather condition (e.g., Rain, Snow, Clear))
+1. **main:** Main weather condition (e.g., Rain, Snow, Clear)
 
-(2. **temp:** Current temperature in Centigrade)
+2. **temp:** Current temperature in Centigrade
 
-(3. **feels_like:** Perceived temperature in Centigrade) 
+3. **feels_like:** Perceived temperature in Centigrade
 
-(4. **dt:** Time of the data update (Unix timestamp))
+4. **dt:** Time of the data update (Unix timestamp)
 
 
 
