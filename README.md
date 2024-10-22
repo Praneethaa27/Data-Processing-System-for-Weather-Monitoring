@@ -7,12 +7,19 @@ Develop a real-time data processing system to monitor weather conditions and pro
 weather_monitoring_system/
 │
 ├── app.py                       # Main application file
+
 ├── config.py                    # Configuration file (API key, cities, etc.)
+
 ├── data_processing.py            # Data processing, rollups, and aggregate functions
+
 ├── alert_system.py               # Alerting and threshold monitoring
+
 ├── visualization.py              # Code for creating visualizations
+
 ├── test_cases.py                 # Test cases for the system
+
 ├── requirements.txt              # Python dependencies
+
 └── data/
     └── daily_weather_summary.csv # CSV file to store daily weather summaries
 
