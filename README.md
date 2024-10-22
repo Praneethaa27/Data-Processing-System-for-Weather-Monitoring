@@ -42,18 +42,58 @@ weather_monitoring_system/
 
 ## Step-by-Step Instructions
 
-**Step 1**: Create requirements.txt for Dependencies
+**Step 1**: Create *requirements.txt* for Dependencies
 
 First, create a *requirements.txt* file to manage dependencies. This will make it easy for others to install necessary packages. 
 
 You can install these dependencies using: 
 
   *pip install -r requirements.txt*
+  
+**Step 2**: Create *config.py* for Configurations
+
+This file will store API keys, city names, and other configurations.
 
 Get API_KEY from [Openweathermap](https://home.openweathermap.org/api_keys)
 
 ![image](https://github.com/user-attachments/assets/6d0b391d-53ba-42c1-9dc8-6753f8b5b0f9)
 
+
+**Step 3**: Create *data_processing.py* for Data Handling
+
+This file will handle retrieving weather data, converting temperatures, and calculating aggregates.
+
+**Step 4**: Create *alert_system.py* for Alerts
+
+This module monitors the data and triggers alerts based on user-defined thresholds.
+
+**Step 5**: Create *visualization.py* for Data Visualization
+
+This file creates visualizations like daily temperature trends and alert history.
+
+**Step 6**: Create *app.py* to Run the Main Application
+
+This is the main file that orchestrates the API calls, data processing, and alerting.
+
+**Step 7**: Create *test_cases.py* for Unit Tests
+
+This file will test different functionalities of the system.
+
+## Run tests using:
+
+ *python test_cases.py*
+ 
+### How to Run the System
+  **1.	Install dependencies: **
+       *pip install -r requirements.txt *
+ * *2.	Set up the API key in  *config.py *. * *
+ * *3.	Run the main application: * *
+ *python app.py *
+4.	Run tests:
+python test_cases.py
+5.	Visualize the data by running:
+python visualization.py
+By following these steps, you'll have a fully functioning real-time weather monitoring system complete with API integration, data rollups, alerts, and visualizations.
 
 
 
